@@ -7,3 +7,4 @@ for line in sys.stdin:
         line = line.strip()
 
 	# TODO: Students to output <lineLength, 1>
+	print '%s\t%s' % (len(line), 1)

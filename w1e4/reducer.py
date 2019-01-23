@@ -30,9 +30,11 @@ for line in sys.stdin:
                 if current_len:
                         # write result to STDOUT
 			# TODO: Students to produce <lineLength, count> output
+			print '%s\t%s' % (current_len, current_count)
                 current_count = count
                 current_len = vlen
 
 # do not forget to output the last word if needed!
 if current_len == vlen:
 	# TODO: Students to produce <lineLength, count> output
+	print '%s\t%s' % (current_len, current_count)
